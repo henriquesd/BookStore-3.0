@@ -3,10 +3,6 @@ GO
 /****** Object:  Database [BookStore]    Script Date: 02/01/2021 18:14:36 ******/
 CREATE DATABASE [BookStore]
  CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'BookStore', FILENAME = N'C:\Users\nlhd2\BookStore.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'BookStore_log', FILENAME = N'C:\Users\nlhd2\BookStore_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
 GO
 ALTER DATABASE [BookStore] SET COMPATIBILITY_LEVEL = 130
 GO
